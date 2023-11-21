@@ -14,6 +14,7 @@
 		1890F98C2B0B9F9100BF17F2 /* MyCars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1890F98A2B0B9F9100BF17F2 /* MyCars.xcdatamodeld */; };
 		1890F98E2B0B9F9500BF17F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1890F98D2B0B9F9500BF17F2 /* Assets.xcassets */; };
 		1890F9912B0B9F9500BF17F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1890F98F2B0B9F9500BF17F2 /* LaunchScreen.storyboard */; };
+		1890F99A2B0BA25A00BF17F2 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1890F9992B0BA25A00BF17F2 /* Data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1890F98D2B0B9F9500BF17F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1890F9902B0B9F9500BF17F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1890F9922B0B9F9500BF17F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1890F9992B0BA25A00BF17F2 /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1890F98D2B0B9F9500BF17F2 /* Assets.xcassets */,
 				1890F98F2B0B9F9500BF17F2 /* LaunchScreen.storyboard */,
 				1890F9922B0B9F9500BF17F2 /* Info.plist */,
+				1890F9992B0BA25A00BF17F2 /* Data.plist */,
 				1890F98A2B0B9F9100BF17F2 /* MyCars.xcdatamodeld */,
 			);
 			path = MyCars;
@@ -129,6 +132,7 @@
 			files = (
 				1890F9912B0B9F9500BF17F2 /* LaunchScreen.storyboard in Resources */,
 				1890F98E2B0B9F9500BF17F2 /* Assets.xcassets in Resources */,
+				1890F99A2B0BA25A00BF17F2 /* Data.plist in Resources */,
 				1890F9892B0B9F9100BF17F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GeoDzh.MyCars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GeoDzh.MyCars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
